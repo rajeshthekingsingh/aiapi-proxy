@@ -22,13 +22,7 @@ OpenAI/ChatGPT 的 API。
 或者，访问 https://deno.new 域名，把 deno.ts 复制到 Playground 中，点击 Play
 按钮。
 
-### CloudFlare
-
-将 cloudflare.ts 复制到 CloudFlare Workers 中。
-
-## 使用
-
-使用 OpenAI/ChatGPT 官方 npm 包：
+OpenAI/ChatGPT 官方 npm
 
 ```diff
 import { Configuration } from "openai";
@@ -39,7 +33,6 @@ const configuration = new Configuration({
 });
 ```
 
-使用 OpenAI/ChatGPT 官方 Python 包：
 
 ```diff
   import openai
@@ -48,14 +41,9 @@ const configuration = new Configuration({
 + openai.api_base = "https://xxxxx.deno.dev/v1"
 ```
 
-## 相关仓库
-
-- [ChatGPT 从入门到精通](https://github.com/justjavac/chatgpt)
-
-## 本地开发
 
 ```bash
 deno run --allow-net --allow-read --allow-env --watch deno.ts
 ```
 
-[1]: https://dash.deno.com/new?url=https://raw.githubusercontent.com/justjavac/openai-proxy/main/deno.ts
+[1]: https://dash.deno.com/new?url=https://raw.githubusercontent.com/rajeshthekingsingh/aiapi-proxy/main/deno.ts
